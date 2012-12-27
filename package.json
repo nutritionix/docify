@@ -1,0 +1,20 @@
+{
+  "name": "doc-builder",
+  "preferGlobal": "true",
+  "version": "0.2.0",
+  "author": "JamesQualls <Qualls.James@gmail.com>",
+  "description": "a simple zero-configuration command-line http server",
+  "contributors": [ 
+    {
+      "name": "Marak Squires",
+      "email": "marak@nodejitsu.com"
+    } 
+  ],
+  "license": "MIT",
+  "private":true,
+  "dependencies" : {
+    "express"  :  "3.0.0",
+    "jade" 		 :  "0.0.1",
+    "mongodb"  :  "*"
+  }
+}

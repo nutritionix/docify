@@ -1,0 +1,7 @@
+h2 Edit Post
+label(for='title') Title:
+input(ng-model='form.title', name='title', placeholder='Creative Title')
+p Body:
+textarea(ng-model='form.text', cols='50', rows='15', placeholder='What do you want to say?')
+p
+	button(ng-click='editPost()') Edit Post

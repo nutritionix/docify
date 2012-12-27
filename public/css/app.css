@@ -1,0 +1,71 @@
+body{height:100%;width: 100%}
+.container-fluid{margin-left:300px;  }
+
+.credentials {
+width: 332px;
+height: 63px;
+position: fixed;
+top: 0;
+right: 0;
+background-color: #EEE;
+padding: 0px 20px 20px 19px;
+}
+
+
+.logo{}
+.console{
+  background-color: #eeeeee;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.resource-header{
+  padding-left: 20px;
+  padding-right:20px; 
+  border-bottom:1px solid #dddddd;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.resource-header:hover{background-color: #F7F7F7;}
+.resource-header h3{cursor: pointer}
+.resource-item {}
+.resource-item .request{}
+.request a{text-decoration: none; font-size: 16px; font-weight: bold}
+span.method{}
+span.uri{}
+
+
+
+/*AJAX LOADER*/
+.ajax-loader{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+
+.loader-container {
+text-align: left;
+width: 300px;
+height: 50px;
+background-color: #DDD;
+position: relative;
+}
+.loader-container h3 {
+margin-left: 10px;
+line-height: 55px;
+color: black;
+}
+
+.loader{
+  position: absolute;
+  right: 0;
+  top: 0;
+}

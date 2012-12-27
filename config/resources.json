@@ -1,0 +1,170 @@
+[
+  {
+    "name": "item",
+    "endpoints": [
+      { 
+        "title":"Items By ID",
+        "opperation": "item/{:id}",
+        "method": "GET",
+        "parameter": "id",
+        "dataType": "item{object}",
+        "description": "Returns item based on :id",
+        "responseURL": "http://google.com"
+      },
+      { 
+        "title":"Query Items by keywords",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Query Items by keywords",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      }
+    ],
+    "_id": "50c342f62217df7019000001"
+  },
+  {
+    "name": "recipe",
+    "endpoints": [
+      { 
+        "title":"Items By ID",
+        "opperation": "item/{:id}",
+        "method": "GET",
+        "parameter": "id",
+        "dataType": "item{object}",
+        "description": "Returns item based on :id",
+        "responseURL": "http://google.com"
+      },
+      { 
+        "title":"Query Items by keywords",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      }
+    ],
+    "_id": "50c342f62217df7019000002"
+  },
+  {
+    "name": "restaurant",
+    "endpoints": [
+      { 
+        "title":"Items By ID",
+        "opperation": "item/{:id}",
+        "method": "GET",
+        "parameter": "id",
+        "dataType": "item{object}",
+        "description": "Returns item based on :id",
+        "responseURL": "http://google.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      }
+    ],
+    "_id": "50c342f62217df7019000003"
+  },
+  {
+    "name": "location",
+    "endpoints": [
+      { 
+        "title":"Items By ID",
+        "opperation": "item/{:id}",
+        "method": "POST",
+        "parameter": "id",
+        "dataType": "item{object}",
+        "description": "Returns item based on :id",
+        "responseURL": "http://google.com"
+      },
+      { 
+        "title":"Query Items by keywords",
+        "opperation": "item/?query={:search}",
+        "method": "GET",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Items By ID",
+        "opperation": "item/?query={:search}",
+        "method": "UPDATE",
+        "parameter": "search",
+        "dataType": "array[{objects}]",
+        "description": "Returns 10 closest matches to query term",
+        "responseURL": "http://yahoo.com"
+      },
+      { 
+        "title":"Query Items by keywords",
+        "opperation": "item/?query={:search}",
+        "method": "DESTROY",
+        "parameter": "search",
+        "dataType": "string",
+        "description": "Returns all locations based on location id",
+        "responseURL": "http://yahoo.com"
+      }
+    ],
+    "_id": "50c342f62217df7019000001"
+  }
+]
